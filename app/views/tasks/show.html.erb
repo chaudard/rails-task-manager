@@ -8,6 +8,10 @@
   <%= @task.details %><br>
 </p>
 <p>
+  <%= link_to "Edit this task", edit_path(@task) %>
+</p>
+
+<p>
   <%= link_to "Back to list", tasks_path %>
 </p>
 

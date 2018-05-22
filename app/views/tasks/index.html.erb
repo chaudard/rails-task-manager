@@ -7,7 +7,7 @@
     <% else %>
       <input id="checkBox" type="checkbox">
     <% end %>
-    <%= link_to task.title, "tasks/#{task.id}" %>
+    <%= link_to task.title, task_path(task) %>
   </li>
   <% end %>
 </ul>
